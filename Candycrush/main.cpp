@@ -17,6 +17,13 @@ int main(int argc, const char * argv[])
     srand(time(0));
     Grille tableau;
     tableau.initialisation();
+
+
+//Boucle pour une mise à jour de la console
+	int i = 0;
+	while (i >= 0)
+{     
+    
     cout<<tableau;
     //tableau.affiche(<#std::ostream &flux#>);
     cout<<endl;
@@ -31,8 +38,12 @@ int main(int argc, const char * argv[])
     cout<<"ordonnée de la deuxième case ?"<<endl;
     cin>>l;
     tableau.inversion(i-1,j-1,k-1,l-1);
-    //met à jour le tableau
-    cout<<tableau;
+    //Effacer l'écran de la console
+	system("cls");
+}
+
+
+
     return 0;
 }
 
