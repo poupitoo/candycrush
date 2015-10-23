@@ -1,5 +1,5 @@
 # candycrush
-@Paul
+@Paul @Maria
 - Dans Grille.hpp:
 Initialiser plutot la grille avec le constructeur.
 Ecrire d'abord les attributs.
@@ -8,13 +8,8 @@ Que fait la fonction &operator<<
 - Dans main:
 Que fait srand(time(0)); ?
 
-@Maria
+
+@Mahdi @Amine
+- A partir d'un tableau afficher une fenetre CandyCrush
 
 
-
-
-@Mahdi
-
-
-
-@Amine
