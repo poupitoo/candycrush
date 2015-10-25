@@ -14,5 +14,6 @@ Que fait srand(time(0)); ?
 
 @Mahdi @Amine
 - A partir d'un tableau afficher une fenetre CandyCrush
+- le system("cls") ne marche pas sur xcode (mac) et je n'arrive pas à toruver d'alternative sur internet, si l'un de vous a une idée ca m'intéresse.
 
 
