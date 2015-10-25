@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Grille.hpp"
+#include <curses.h>
 
 
 using namespace std;
@@ -26,20 +27,24 @@ int main(int argc, const char * argv[])
     
     cout<<tableau;
     //tableau.affiche(<#std::ostream &flux#>);
-    cout<<endl;
-    int i,j,k,l;
-    cout<<"quelles cases voulez-vous échanger?"<<endl;
-    cout<<"abscisse de la première case ?"<<endl;
-    cin>>i;
-    cout<<"ordonnée de la première case ?"<<endl;
-    cin>>j;
-    cout<<"abscisse de la deuxième case ?"<<endl;
-    cin>>k;
-    cout<<"ordonnée de la deuxième case ?"<<endl;
-    cin>>l;
-    tableau.inversion(i-1,j-1,k-1,l-1);
+    tableau.pareil(0,0,tableau);
+    
+
+    
+/*
+
     //Effacer l'écran de la console
 	system("cls");
+    system("clear"); //prb : ni le clear ni le cls ne marchent sur xcode...j'ai regardé sur internet et je n'ai pas réussi à me débloquer
+    
+    cout<<tableau;
+    system("cls");
+    system("clear");
+    tableau.pareil(0,0,tableau);
+    cout<<
+ */
+    
+    
 }
 
 
